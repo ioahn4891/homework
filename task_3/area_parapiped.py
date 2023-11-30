@@ -1,5 +1,3 @@
-# import math
-
 l = float(input("Введіть довжину l, см: "))
 h = float(input("Введіть висоту h, см: "))
 w = float(input("Введіть ширину w, см: "))

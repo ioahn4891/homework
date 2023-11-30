@@ -6,10 +6,11 @@ if 1900 < year < 1_000_000:
         print(year, "is not leep year")
 
     elif year % 100 == 0:
-        if year % 400 == 0:
-            print(year, "is Leap Year!")
+        if year % 400 != 0:
+            print(year, "is NOT Leap Year!")
+        else:
+            print(year, "is LEAP year")
     else:
-        print(year, "is leep year")
-
+        print(year, "is LEAP year")
 else:
     print("не вірний діапазон!!!")
